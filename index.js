@@ -40,7 +40,7 @@ function App() {
     const saved = localStorage.getItem('terminal-settings');
     return saved ? JSON.parse(saved) : {
       mode: 'cloud',
-      model: 'openai',
+      model: 'openai-fast',
       endpoint: 'https://text.pollinations.ai/openai',
       apiKey: '',
       localEndpoint: 'http://localhost:11434',
